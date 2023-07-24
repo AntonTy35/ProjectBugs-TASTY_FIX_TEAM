@@ -1,0 +1,17 @@
+.filter-bar-input {
+  position: relative;
+  display: inline-block;
+}
+.filter-bar-input-search {
+  padding-left: 30px;
+}
+
+.filter-bar-input-search-icon {
+  width: 18px; /* Ширина іконки */
+  height: 18px; /* Висота іконки */
+  position: absolute;
+  left: 18px; /* Відступ зліва, щоб центрувати іконку */
+  top: 50%; /* Відступ зверху, щоб центрувати іконку */
+  transform: translateY(-50%); /* Центруємо по вертикалі */
+  fill: #050505; /* Колір іконки */
+}
